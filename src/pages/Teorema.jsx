@@ -14,7 +14,7 @@ function Teorema() {
         Fundamental de Paco Pico. <br />
       </p>
       <p>Esperemos que te guste, se ha hecho con mucho cariño y con el fin de que lo disfrutes al máximo.</p>
-      <button className='custom-botton' onClick={() => alert('Botón personalizado clickeado!')}>
+      <button className='custom-button' onClick={() => alert('Botón personalizado clickeado!')}>
         Siguiente Nivel
       </button>
     </div>
