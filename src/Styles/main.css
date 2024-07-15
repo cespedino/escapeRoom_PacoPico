@@ -19,17 +19,22 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    margin: 1rem 1rem;
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
 }
 
 p {
-    margin: 1rem 1rem;
+    margin: 1rem 5rem;
     line-height: 1.6;
     font-family: 'Arial, sans-serif';
     color: #333;
-  }  
+} 
+
+.extra-margin {
+    margin-left: 7rem; /* O cualquier valor que prefieras */
+}  
 
 h1 {
     color: #333;
@@ -37,8 +42,12 @@ h1 {
     text-align: center;
     font-family: 'Arial, sans-serif';
     margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 
+.pag-principales {
+    margin-bottom: 10%;
+}
 
 .logo {
     width: 50px;
