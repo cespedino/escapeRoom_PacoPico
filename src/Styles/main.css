@@ -1,0 +1,46 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root{
+    --mainColor: #29335c;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: #eee;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+}
+
+p {
+    margin: 1rem 1rem;
+    line-height: 1.6;
+    font-family: 'Arial, sans-serif';
+    color: #333;
+  }  
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Arial, sans-serif';
+    margin-bottom: 1rem;
+}
+
+
+.logo {
+    width: 50px;
+    height: auto;
+  }
